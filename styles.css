@@ -1,0 +1,380 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(10 25 47);
+}
+
+a {
+  text-decoration: none;
+}
+nav h2 {
+  font-family: "Bakbak";
+}
+section {
+  margin-top: 1rem;
+  width: 99vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+.two {
+  background-color: rgb(10 25 47);
+}
+.three {
+  background-color: rgb(10 25 47);
+}
+
+.container-main {
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+.main-landing {
+  background-color: rgb(10 25 47);
+  justify-content: center;
+  font-family: "Montserrat";
+  flex-direction: column;
+  height: 100vh;
+}
+nav {
+  color: #5fe7c5;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0%;
+  padding: 1.5rem 2rem;
+}
+nav ul li a {
+  color: #5fe7c5;
+}
+nav h2 {
+  font-family: "Montserrat";
+  font-size: 32px;
+}
+nav ul {
+  display: flex;
+  font-family: "Montserrat";
+  list-style: none;
+}
+nav ul li {
+  padding: 0 0.5rem;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  cursor: pointer;
+}
+nav .burger {
+  display: none;
+}
+nav ul li a:hover {
+  color: #ccd6f6;
+}
+
+.main-landing .content-first {
+  padding: 2rem;
+  border: 1px solid #5fe7c5;
+  border-radius: 20px;
+  margin: 1rem;
+}
+.main-landing h1 {
+  font-size: 4rem;
+}
+.main-landing h2 {
+  font-size: 3rem;
+}
+.main-landing p {
+  color: #5fe7c5;
+  font-weight: bold;
+}
+.main-landing h1 {
+  color: #ccd6f6;
+}
+.main-landing h2 {
+  color: #8892b0;
+}
+.main-landing h4 {
+  margin: 0.6rem 0;
+  color: #ccd6f6;
+}
+@media (max-width: 725px) {
+  .content-first {
+    transform: scale(0.8);
+  }
+  .two {
+    height: 130vh;
+  }
+}
+.socials {
+  display: flex;
+}
+.social {
+  height: 80px;
+  width: 80px;
+  border: 1px solid #5fe7c5;
+  margin: 0 1rem;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.socials i {
+  font-size: 3rem;
+  color: #ccd6f6;
+}
+
+.aboutMe {
+  background-color: rgb(10 25 47);
+  height: 100vh;
+}
+.imageProfile img {
+  height: 350px;
+  width: auto;
+  object-fit: cover;
+  border-bottom: 1px solid #5fe7c5;
+  border-top: 2px solid #5fe7c5;
+  border-right: 1.5px solid #5fe7c5;
+  border-left: 2px solid #5fe7c5;
+}
+.aboutMe {
+  font-family: "Montserrat";
+}
+.about-container {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.aboutMe div {
+  margin: 1rem;
+}
+.aboutMe p {
+  color: #ccd6f6;
+  font-family: "Montserrat";
+}
+.aboutMe h2 {
+  font-size: 2.5rem;
+  color: #ccd6f6;
+}
+.aboutMe h3 {
+  font-size: 2rem;
+  color: #8892b0;
+}
+.content-about {
+  width: 40%;
+}
+.content-about ul {
+  list-style-type: square;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+.content-about ul li {
+  color: #5fe7c5;
+  font-family: "Montserrat";
+}
+
+@media (max-width: 725px) {
+  .contact-me h4 {
+    text-align: center;
+  }
+  .aboutMe {
+    height: max-content;
+  }
+  .content-about {
+    width: 90%;
+    font-size: 0.8rem;
+    margin-top: 0;
+  }
+  .aboutMe img {
+    transform: scale(0.8);
+  }
+  .aboutMe .imageProfile {
+    margin-top: 2.5rem;
+    margin-bottom: 0;
+  }
+  .technologies {
+    text-align: center;
+  }
+  .project {
+    padding: 0.5rem !important;
+    height: 195px !important;
+    height: fit-content;
+  }
+  .info-project h4 {
+    font-size: 0.6rem;
+  }
+  .info-project p {
+    font-size: 0.7rem;
+  }
+  .info-project ul li {
+    font-size: 0.7rem;
+  }
+}
+
+.projects img {
+  width: 400px;
+  height: 100%;
+  object-fit: contain;
+}
+.two {
+  padding-top: 4rem;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.two h2 {
+  color: #ccd6f6;
+  font-family: "Montserrat";
+  padding: 1rem;
+}
+.project {
+  font-family: "Montserrat";
+  width: 80%;
+  margin: 2rem auto;
+  display: flex;
+  border: 1px solid #5fe7c5;
+  padding: 1rem;
+  height: 220px;
+
+  border-radius: 20px;
+}
+.info-project {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin: 0 1rem;
+}
+.project h4 {
+  font-size: 1.6rem;
+  color: #e8ecfa;
+}
+.project a {
+  color: #8892b0;
+  text-decoration: underline;
+}
+.project ul {
+  display: flex;
+  flex-wrap: wrap;
+  color: #5fe7c5;
+  list-style-type: none;
+}
+.project p {
+  color: #8892b0;
+}
+.project ul li {
+  padding: 0 0.5rem;
+  font-family: "Montserrat";
+}
+@media (max-width: 930px) {
+  .project img {
+    display: none;
+  }
+}
+.contact-me {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 6rem;
+}
+.contact-me h3 {
+  color: #ccd6f6;
+  font-family: "Montserrat";
+  padding: 1rem;
+}
+.contact-me h4 {
+  color: #ccd6f6;
+  font-family: "Montserrat";
+  padding: 1rem;
+}
+.contact-info i {
+  color: white;
+  margin: 0 0.5rem;
+}
+.contact-info {
+  height: 80%;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1rem;
+}
+.contact-info a {
+  color: #ccd6f6;
+
+  font-size: 4rem;
+  border-radius: 20px;
+}
+.contact-square {
+  padding: 0.5rem 1rem;
+  border: 1px solid #5fe7c5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  border-radius: 20px;
+}
+@media (max-width: 470px) {
+  .imageProfile {
+    transform: scale(0.8);
+    padding-top: 0 2rem;
+  }
+  .content-about {
+    transform: scale(0.8);
+    padding: 2rem;
+  }
+  nav ul {
+    display: none;
+  }
+  nav .burger {
+    font-size: 2rem;
+    padding-bottom: 0.8rem;
+    display: flex;
+  }
+}
+
+.toggle {
+  display: none;
+  position: absolute;
+  right: 8%;
+  top: 8%;
+  text-align: right;
+  transition: all 1s ease-in;
+}
+
+.toggle ul {
+  list-style: none;
+  font-family: "Montserrat";
+  background-color: #69e7caea;
+  padding: 0.5rem;
+  border-radius: 0 0px 20px 20px;
+  z-index: 15;
+  transition: all 1s ease-in;
+  position: relative;
+}
+
+.toggle ul:before {
+  position: absolute;
+  content: "";
+  width: 77%;
+  top: -5px;
+  left: -10px;
+  height: 15px;
+  background-color: rgb(10 25 47);
+  z-index: 99;
+}
+.toggle ul li a {
+  color: black;
+  font-size: 0.8rem;
+}
+.toggle ul li {
+  margin: 0.5rem 0;
+}
