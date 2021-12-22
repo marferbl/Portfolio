@@ -329,6 +329,11 @@ nav ul li a:hover {
   margin: 1rem;
   border-radius: 20px;
 }
+@media (max-height: 638px) {
+  nav {
+    padding: 0.5rem 1rem;
+  }
+}
 @media (max-width: 520px) {
   .imageProfile {
     transform: scale(0.8);
