@@ -237,6 +237,7 @@ nav ul li a:hover {
   color: #ccd6f6;
   font-family: "Montserrat";
   padding: 1rem;
+  padding-top: 3rem;
 }
 .project {
   font-family: "Montserrat";
@@ -351,6 +352,7 @@ nav ul li a:hover {
   }
   .two h2 {
     margin-top: 2rem;
+    padding-top: 0;
   }
 
   .technologies {
