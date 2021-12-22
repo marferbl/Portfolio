@@ -39,15 +39,16 @@ section {
   height: 100vh;
 }
 nav {
+  background-color: #8892b0;
   color: #5fe7c5;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   position: fixed;
   top: 0;
   left: 0%;
-  padding: 1.5rem 2rem;
+  padding: 1rem 2rem;
 }
 nav ul li a {
   color: #5fe7c5;
@@ -60,6 +61,7 @@ nav ul {
   display: flex;
   font-family: "Montserrat";
   list-style: none;
+  align-items: center;
 }
 nav ul li {
   padding: 0 0.5rem;
@@ -108,7 +110,7 @@ nav ul li a:hover {
     transform: scale(0.8);
   }
   .two {
-    height: 130vh;
+    height: 100vh;
   }
 }
 .socials {
@@ -366,8 +368,8 @@ nav ul li a:hover {
 .toggle {
   display: none;
   position: absolute;
-  right: 1%;
-  top: 9%;
+  right: 0%;
+  top: 8%;
   height: 100%;
   width: 100%;
   text-align: right;
@@ -402,4 +404,29 @@ nav ul li a:hover {
 .toggle ul li {
   margin: 1.5rem 0;
   padding: 0 1.5rem;
+}
+
+.content-miniProjects {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+}
+.card-project {
+  height: 180px;
+  width: 320px;
+  margin: 1rem;
+}
+.card-project img {
+  height: 180px;
+  width: 100%;
+}
+.miniProjects h2 {
+  color: #ccd6f6;
+  text-align: center;
+  margin: 2rem 0;
+  margin-bottom: 3rem;
+  font-family: "Montserrat";
 }
