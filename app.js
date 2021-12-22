@@ -13,3 +13,13 @@ iconMenu.addEventListener("click", () => {
 togglesElements.forEach((elem) => {
   elem.addEventListener("click", () => setTimeout(() => (document.querySelector(".toggle").style.display = "none")), 1000);
 });
+
+document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+  anchor.addEventListener("click", function (e) {
+    e.preventDefault();
+
+    document.querySelector(this.getAttribute("href")).scrollIntoView({
+      behavior: "smooth",
+    });
+  });
+});
