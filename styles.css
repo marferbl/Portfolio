@@ -329,7 +329,7 @@ nav ul li a:hover {
 @media (max-width: 520px) {
   .imageProfile {
     transform: scale(0.8);
-    padding-top: 0 2rem;
+    padding-top: 0 2.7rem;
   }
   .content-about {
     margin-top: -7rem;
