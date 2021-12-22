@@ -422,6 +422,7 @@ nav ul li a:hover {
 .card-project img {
   height: 180px;
   width: 100%;
+  border: 1px solid #5fe7c5;
 }
 .miniProjects h2 {
   color: #ccd6f6;
