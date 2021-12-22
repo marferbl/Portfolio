@@ -13,7 +13,7 @@ nav h2 {
   font-family: "Bakbak";
 }
 section {
-  margin-top: 1rem;
+  margin-top: -1rem;
   width: 99vw;
   display: flex;
   justify-content: center;
