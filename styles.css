@@ -13,7 +13,7 @@ nav h2 {
   font-family: "Bakbak";
 }
 section {
-  margin-top: -1rem;
+  margin-top: 1rem;
   width: 99vw;
   display: flex;
   justify-content: center;
@@ -103,6 +103,9 @@ nav ul li a:hover {
   color: #ccd6f6;
 }
 @media (max-width: 725px) {
+  section {
+    margin-top: -2rem;
+  }
   .content-first {
     transform: scale(0.8);
   }
@@ -347,7 +350,7 @@ nav ul li a:hover {
     margin-top: -5rem;
   }
   .two h2 {
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
 
   .technologies {
