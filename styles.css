@@ -330,6 +330,7 @@ nav ul li a:hover {
     padding-top: 0 2rem;
   }
   .content-about {
+    margin-top: -7rem;
     transform: scale(0.8);
     padding: 2rem;
   }
@@ -348,9 +349,7 @@ nav ul li a:hover {
   .two h2 {
     margin-top: 4rem;
   }
-  .content-about {
-    margin-top: -7rem;
-  }
+
   .technologies {
     padding-left: 2rem;
   }
