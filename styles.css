@@ -168,6 +168,9 @@ nav ul li a:hover {
 .content-about {
   width: 40%;
 }
+.content-about p {
+  text-align: justify;
+}
 .content-about ul {
   list-style-type: none;
   columns: 2;
@@ -334,7 +337,7 @@ nav ul li a:hover {
   .content-about {
     margin-top: -7rem;
     transform: scale(0.8);
-    padding: 2rem;
+    padding: 2.8rem;
   }
   nav ul {
     display: none;
