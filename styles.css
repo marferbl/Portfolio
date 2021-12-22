@@ -151,9 +151,7 @@ nav ul li a:hover {
   flex-wrap: wrap;
   align-items: center;
 }
-.aboutMe div {
-  margin: 1rem;
-}
+
 .aboutMe p {
   color: #ccd6f6;
   font-family: "Montserrat";
@@ -170,7 +168,7 @@ nav ul li a:hover {
   width: 40%;
 }
 .content-about ul {
-  list-style-type: square;
+  list-style-type: none;
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2;
@@ -178,6 +176,10 @@ nav ul li a:hover {
 .content-about ul li {
   color: #5fe7c5;
   font-family: "Montserrat";
+}
+.imageProfile,
+.content-about {
+  margin: 1rem;
 }
 
 @media (max-width: 725px) {
@@ -202,6 +204,7 @@ nav ul li a:hover {
   .technologies {
     text-align: center;
   }
+
   .project {
     padding: 0.5rem !important;
     height: 195px !important;
@@ -224,7 +227,6 @@ nav ul li a:hover {
   object-fit: contain;
 }
 .two {
-  padding-top: 4rem;
   justify-content: flex-start;
   flex-direction: column;
 }
@@ -339,13 +341,28 @@ nav ul li a:hover {
     padding-bottom: 0.8rem;
     display: flex;
   }
+  .projects {
+    transform: scale(0.8);
+    margin-top: -5rem;
+  }
+  .two h2 {
+    margin-top: 4rem;
+  }
+  .content-about {
+    margin-top: -7rem;
+  }
+  .technologies {
+    padding-left: 2rem;
+  }
 }
 
 .toggle {
   display: none;
   position: absolute;
-  right: 8%;
-  top: 8%;
+  right: 1%;
+  top: 9%;
+  height: 100%;
+  width: 100%;
   text-align: right;
   transition: all 1s ease-in;
 }
@@ -355,13 +372,13 @@ nav ul li a:hover {
   font-family: "Montserrat";
   background-color: #69e7caea;
   padding: 0.5rem;
-  border-radius: 0 0px 20px 20px;
   z-index: 15;
   transition: all 1s ease-in;
   position: relative;
+  width: 100%;
 }
 
-.toggle ul:before {
+/* .toggle ul:before {
   position: absolute;
   content: "";
   width: 77%;
@@ -370,11 +387,12 @@ nav ul li a:hover {
   height: 15px;
   background-color: rgb(10 25 47);
   z-index: 99;
-}
+} */
 .toggle ul li a {
   color: black;
-  font-size: 0.8rem;
+  font-size: 1.6rem;
 }
 .toggle ul li {
-  margin: 0.5rem 0;
+  margin: 1.5rem 0;
+  padding: 0 1.5rem;
 }
