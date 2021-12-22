@@ -28,6 +28,7 @@ section {
 }
 
 .container-main {
+  overflow-x: hidden;
   height: 100vh;
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
