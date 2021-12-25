@@ -49,7 +49,9 @@ nav {
   top: 0;
   left: 0%;
   padding: 1rem 2rem;
+  z-index: 90;
 }
+
 nav ul li a {
   color: #5fe7c5;
 }
@@ -107,7 +109,7 @@ nav ul li a:hover {
     margin-top: -2rem;
   }
   .content-first {
-    transform: scale(0.8);
+    transform: scale(0.65);
   }
   .two {
     height: 100vh;
@@ -220,7 +222,7 @@ nav ul li a:hover {
     font-size: 0.7rem;
   }
   .info-project ul li {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
 }
 
@@ -328,9 +330,12 @@ nav ul li a:hover {
   margin: 1rem;
   border-radius: 20px;
 }
-@media (max-height: 638px) {
+@media (max-height: 590px) {
   nav {
-    padding: 0.5rem 1rem;
+    padding: 0.35rem 1rem;
+  }
+  .miniProjects {
+    margin-top: 8rem;
   }
 }
 @media (max-width: 520px) {
@@ -340,7 +345,7 @@ nav ul li a:hover {
   }
   .content-about {
     margin-top: -7rem;
-    transform: scale(0.8);
+    transform: scale(0.65);
     padding: 3.8rem;
   }
   nav ul {
